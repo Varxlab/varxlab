@@ -1,0 +1,8 @@
+# Exported from Render on 2024-06-28T18:53:01Z
+services:
+- type: web
+  name: varxlab_staticsite
+  runtime: static
+  repo: https://github.com/Varxlab/varxlab
+  staticPublishPath: build
+version: "1"
