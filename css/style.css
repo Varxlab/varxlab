@@ -1693,7 +1693,6 @@ textarea:focus {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	background: #3bb6d5;
 	border: 0;
 	color: #fff;
 	border: 1px solid #3bb6d5;
@@ -1713,7 +1712,6 @@ textarea:focus {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #3bb6d5;
 	border: 0;
 	color: #fff;
 	line-height: 47px;
@@ -22178,16 +22176,16 @@ button:focus {
 	width: 180px;
 	height: 45px;
 	float: left;
+	background: #7e50ff;
+	border: 1px solid #7e50ff;
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
 	text-transform: capitalize;
 	text-align: center;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	background: #7e50ff;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -22214,10 +22212,8 @@ button:focus {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	background: #7e50ff;
 	border: 0;
 	color: #fff;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -22234,12 +22230,10 @@ button:focus {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #7e50ff;
 	border: 0;
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
