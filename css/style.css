@@ -22293,6 +22293,9 @@ button:focus {
 .start_about_content_wrapper {
 	top: 15px;
 }
+.start_about_content_wrapper > h3{
+	color: transparent;
+}
 
 .start_services_box:hover {
 	-webkit-transition: all 0.5s;
