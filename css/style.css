@@ -22332,7 +22332,7 @@ button:focus {
 	color: #7e50ff;
 	display: block;
 	font-weight: 500;
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 .start_service_box_icon {
@@ -23708,11 +23708,11 @@ button:focus {
 	padding-top: 110px;
 }
 
-.web_slider_wrapper .carousel-nevigation>.next:hover,
+/* .web_slider_wrapper .carousel-nevigation>.next:hover,
 .web_slider_wrapper .carousel-nevigation>.prev:hover {
 	color: #fff;
 	background: transparent;
-}
+} */
 
 .web_slider_wrapper .carousel-nevigation>.next i:before,
 .web_slider_wrapper .carousel-nevigation>.prev i:before {
@@ -25105,4 +25105,20 @@ button:focus {
 
 .logo_footer {
 	width: 70%;
+}
+
+/* Read More Btn */
+#readMoreBtn{
+	font-size: 1.3vw;
+}
+.readSection{
+	margin-top: 5vw;
+	display:flex;
+	flex-wrap: wrap;
+	gap: 3vw;
+}
+.cardContainer{
+	display: flex;
+	align-items: center;
+	gap: 2vw;
 }
