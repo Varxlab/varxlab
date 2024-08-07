@@ -1693,7 +1693,6 @@ textarea:focus {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	background: #3bb6d5;
 	border: 0;
 	color: #fff;
 	border: 1px solid #3bb6d5;
@@ -1713,7 +1712,6 @@ textarea:focus {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #3bb6d5;
 	border: 0;
 	color: #fff;
 	line-height: 47px;
@@ -22178,16 +22176,16 @@ button:focus {
 	width: 180px;
 	height: 45px;
 	float: left;
+	background: #7e50ff;
+	border: 1px solid #7e50ff;
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
 	text-transform: capitalize;
 	text-align: center;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	background: #7e50ff;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -22214,10 +22212,8 @@ button:focus {
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	background: #7e50ff;
 	border: 0;
 	color: #fff;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -22234,12 +22230,10 @@ button:focus {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #7e50ff;
 	border: 0;
 	color: #fff;
 	line-height: 47px;
 	text-align: center;
-	border: 1px solid #7e50ff;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -22299,6 +22293,9 @@ button:focus {
 .start_about_content_wrapper {
 	top: 15px;
 }
+.start_about_content_wrapper > h3{
+	color: transparent;
+}
 
 .start_services_box:hover {
 	-webkit-transition: all 0.5s;
@@ -22335,7 +22332,7 @@ button:focus {
 	color: #7e50ff;
 	display: block;
 	font-weight: 500;
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 .start_service_box_icon {
@@ -23711,11 +23708,11 @@ button:focus {
 	padding-top: 110px;
 }
 
-.web_slider_wrapper .carousel-nevigation>.next:hover,
+/* .web_slider_wrapper .carousel-nevigation>.next:hover,
 .web_slider_wrapper .carousel-nevigation>.prev:hover {
 	color: #fff;
 	background: transparent;
-}
+} */
 
 .web_slider_wrapper .carousel-nevigation>.next i:before,
 .web_slider_wrapper .carousel-nevigation>.prev i:before {
@@ -25108,4 +25105,20 @@ button:focus {
 
 .logo_footer {
 	width: 70%;
+}
+
+/* Read More Btn */
+#readMoreBtn{
+	font-size: 1.3vw;
+}
+.readSection{
+	margin-top: 5vw;
+	display:flex;
+	flex-wrap: wrap;
+	gap: 3vw;
+}
+.cardContainer{
+	display: flex;
+	align-items: center;
+	gap: 2vw;
 }
