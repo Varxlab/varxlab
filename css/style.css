@@ -25122,3 +25122,91 @@ button:focus {
 	align-items: center;
 	gap: 2vw;
 }
+
+/* Login Panel */
+.loginContainer{
+	width: 100%;
+	height: 100%;
+}
+.navbar{
+	position: fixed !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 15vh;
+	background-color: #7e50ff;
+}
+.loginLogo{
+	padding-left: 2vw;
+	width: 30%;
+}
+.registerBtn{
+	color:#7e50ff;
+	background-color: #fff;
+	border-radius: 2vw;
+	cursor: pointer;
+	font-size: 1.5vw;
+	padding: .5vw 2vw;
+	font-weight: 600;
+	margin-right: 2vw;
+}
+.loginPanel{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 3vw;
+	margin-inline: 8vw;
+	margin-top: 10vw;
+	margin-bottom: 5vw;
+	font-family: gilroy;
+}
+.loginForm{
+	width: 40%;
+	border: 1px solid #7E50FF;
+	background-color: #dedede;
+	border-radius: 5vw;
+	padding: 5vw;
+	display: flex;
+	flex-direction: column;
+	gap: 1vw;
+}
+.heading{
+	font-size: 3.5vw;
+	text-align: center;
+	color: #7e50ff;
+	font: 800;
+}
+.formHeading{
+	font-size: 1.5vw;
+	font-weight: 600;
+}
+.formHeading input{
+	padding: .5vw;
+	width: 100%;
+	border-radius: .3vw;
+	border: none;
+}
+.formSubmit{
+	margin-top: 1vw;
+	padding: .5vw;
+    background-color: #7E50FF;
+    color: #fff;
+    border: none;
+    border-radius: .3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+.loginImage{
+	width: 40%;
+}
+.loginImage > img{
+	width: 100%;
+	object-fit: cover;
+}
+
+/* Login Footer */
+.footerLogo{
+	width: 45%;
+}
+.footerRow{
+	margin-right: 6vw;
+}
