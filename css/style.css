@@ -21547,7 +21547,7 @@ button:focus {
 
 .start_menu_right_wrapper {
 	float: right;
-	padding-top: 31px;
+	padding-top: 26px;
 }
 
 .close:not(:disabled):not(.disabled):focus,
@@ -21613,7 +21613,7 @@ button:focus {
 	background: transparent;
 	padding-right: 15px;
 	border: 0;
-	color: #7e50ff;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -25128,12 +25128,15 @@ button:focus {
 	width: 100%;
 	height: 100%;
 }
-.navbar{
+#navbar{
 	position: fixed !important;
 	top: 0 !important;
 	width: 100% !important;
-	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background-color: #7e50ff;
+	height: 15vh;
 }
 .loginLogo{
 	padding-left: 2vw;
@@ -25151,6 +25154,7 @@ button:focus {
 }
 .loginPanel{
 	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	gap: 3vw;
@@ -25205,8 +25209,53 @@ button:focus {
 
 /* Login Footer */
 .footerLogo{
-	width: 45%;
+	width: 40%;
 }
 .footerRow{
 	margin-right: 6vw;
+}
+
+/* Responsive Login & Register */
+
+@media screen and (max-width: 1200px) {
+	.loginContainer{
+		width: 100%;
+		min-height: 100vh;
+	}
+    #navbar{
+        height: 8vh;
+		padding: 2vw;
+	}
+	.registerBtn{
+		cursor: pointer;
+		font-size: 2.5vw;
+		padding: 1.2vw 4vw;
+	}
+	.start_searchd_bar {
+		color: #fff;
+	}
+	.loginlogo {
+		padding-left: 0;
+		padding-top: 0;
+	}
+	.loginPanel{
+		margin: 0;
+		margin-top: 30vw;
+		flex-direction: column;
+		gap: 0;
+	}
+	.loginForm{
+        width: 80%;
+    }.loginImage{
+		width: 80%;
+	}
+	.footerContainer{
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		padding-inline: 5vw;
+		padding-top: 0;
+		align-items: center;
+		justify-content: center;
+	}
 }
