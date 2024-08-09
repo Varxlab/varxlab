@@ -77,7 +77,7 @@ Author: varxlab
                     </div>
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-6 col-6 resp_main_heade">
                         <div class="start_menu_right_wrapper">
-                            <a href="signIn.html" class="start_btn_style d-sm-block d-md-block d-lg-block d-xl-block">Sign up</a>
+                            <a href="login_test.html" class="start_btn_style d-sm-block d-md-block d-lg-block d-xl-block">Login</a>
                         </div>
                         <div class="start_menu_wrapper d-none d-sm-none d-md-none d-lg-block d-xl-block">
                             <nav class="menu_scroll">
@@ -122,8 +122,18 @@ Author: varxlab
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                        <form class="loginForm" action="">
-                                            <h1 class="heading">Login</h1>
+                                        <form class="loginForm signInForm" action="">
+                                            <h1 class="heading">Sign Up</h1>
+                                            <div class="formHeading">
+                                                <label for="name">Name:</label>
+                                                <br>
+                                                <input type="name" id="name" placeholder="Name">
+                                            </div>
+                                            <div class="formHeading">
+                                                <label for="type">Type:</label>
+                                                <br>
+                                                <input type="text" id="type" placeholder="Type e.g:- Admin or User">
+                                            </div>
                                             <div class="formHeading">
                                                 <label for="email">Email:</label>
                                                 <br>
@@ -134,7 +144,22 @@ Author: varxlab
                                                 <br>
                                                 <input type="password" id="password" placeholder="Password">
                                             </div>
-                                            <input class="formSubmit" type="submit" value="Login">
+                                            <div class="formHeading">
+                                                <label for="password">Confirm Password:</label>
+                                                <br>
+                                                <input type="password" id="password" placeholder="Confirm Password">
+                                            </div>
+                                            <div class="formHeading">
+                                                <label for="contactNo">Contact:</label>
+                                                <br>
+                                                <input type="tel" id="contactNo" placeholder="Contact">
+                                            </div>
+                                            <div class="formHeading">
+                                                <label for="otp">OTP:</label>
+                                                <br>
+                                                <input type="number" id="otp" placeholder="OTP">
+                                            </div>
+                                            <input class="formSubmit" type="submit" value="Create Account">
                                         </form>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

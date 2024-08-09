@@ -2877,7 +2877,7 @@ Copyright © 2020-21
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-1,
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-2,
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-3 {
-		min-height: 690px;
+		min-height: 390px;
 	}
 	.start_services_box h1 {
 		font-size: 18px;
