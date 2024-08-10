@@ -25124,47 +25124,9 @@ button:focus {
 }
 
 /* Login Panel */
-.loginContainer{
-	width: 100%;
-	height: 100%;
-}
-#navbar{
-	position: fixed !important;
-	top: 0 !important;
-	width: 100% !important;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	background-color: #7e50ff;
-	height: 15vh;
-}
-.loginLogo{
-	padding-left: 2vw;
-	width: 30%;
-}
-.registerBtn{
-	color:#7e50ff;
-	background-color: #fff;
-	border-radius: 2vw;
-	cursor: pointer;
-	font-size: 1.5vw;
-	padding: .5vw 2vw;
-	font-weight: 600;
-	margin-right: 2vw;
-}
-.loginPanel{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	gap: 3vw;
-	margin-inline: 8vw;
-	margin-top: 10vw;
-	margin-bottom: 5vw;
-	font-family: gilroy;
-}
 .loginForm{
-	width: 40%;
+	margin-top: 5.5vw;
+	width: 100%;
 	border: 1px solid #7E50FF;
 	background-color: #dedede;
 	border-radius: 5vw;
@@ -25199,63 +25161,37 @@ button:focus {
     cursor: pointer;
     font-size: 1.5vw;
 }
-.loginImage{
-	width: 40%;
-}
-.loginImage > img{
-	width: 100%;
-	object-fit: cover;
-}
 
-/* Login Footer */
-.footerLogo{
-	width: 40%;
-}
-.footerRow{
-	margin-right: 6vw;
+/* Sign In */
+.signInForm{
+	margin-bottom: 5vw;
 }
 
 /* Responsive Login & Register */
 
 @media screen and (max-width: 1200px) {
-	.loginContainer{
+	/* Sign In */
+	.signInForm{
 		width: 100%;
-		min-height: 100vh;
+		margin-bottom: 13vw;
 	}
-    #navbar{
-        height: 8vh;
-		padding: 2vw;
+	.heading{
+		font-size: 6vw;
 	}
-	.registerBtn{
-		cursor: pointer;
-		font-size: 2.5vw;
-		padding: 1.2vw 4vw;
-	}
-	.start_searchd_bar {
-		color: #fff;
-	}
-	.loginlogo {
-		padding-left: 0;
-		padding-top: 0;
-	}
-	.loginPanel{
-		margin: 0;
-		margin-top: 30vw;
-		flex-direction: column;
-		gap: 0;
-	}
+	.formHeading{
+        font-size: 3vw;
+    }
+	.formHeading input{
+        padding: 1vw 3vw;
+    }
+	.formSubmit{
+        font-size: 4vw;
+		margin-top:3vw;
+    }
+
+	/* Login Form */
 	.loginForm{
-        width: 80%;
-    }.loginImage{
-		width: 80%;
-	}
-	.footerContainer{
+		margin-top: 15vw;
 		width: 100%;
-		min-height: 100vh;
-		display: flex;
-		padding-inline: 5vw;
-		padding-top: 0;
-		align-items: center;
-		justify-content: center;
 	}
 }
