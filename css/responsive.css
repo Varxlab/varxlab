@@ -1548,6 +1548,15 @@ Copyright © 2020-21
 	.web_about_wrapper {
 		padding-top: 0;
 	}
+	.start_slider_main_img_wrapper{
+		width: 100vw;
+		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > #loginImage {
+        width: 50%;
+        height: 100%;
+		margin-top: -20vw;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.bussi_banner_left_img {
@@ -3665,7 +3674,46 @@ Copyright © 2020-21
 	#web-return-to-top {
 		right: 30px;
 	}
+	/* .start_slider_wrapper .carousel-inner .carousel-item .signInRes{
+		min-height: 170vh;
+	} */
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 #loginSurfaceDuo{
+        min-height: 110vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 {
+        min-height: 110vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item .surfaceDuo{
+        min-height: 170vh;
+    }
+	.start_slider_main_img_wrapper {
+		width: 100vw;
+		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > #loginImage {
+        width: 100%;
+        height: 100%;
+        margin-top: -100vw;
+    }
+
+	.start_slider_wrapper .carousel-inner .carousel-item #loginRes{
+		min-height: 70vh;
+	}
+	#signUpImage img{
+        width: 100vw;
+        height: 50vw;
+        margin-top: -110vw;
+    }
+	#signUpImage .surfaceDuoImage{
+        width: 100vw;
+        height: 50vw;
+        margin-top: -70vw;
+    }
+	.signUpImage #mobileImage{
+		margin-top: -60vw;
+	}
 }
+
 @media (max-width: 480px) {
 	#section-quote .container-quote .quote p {
 		font-size: 20px;
@@ -3950,6 +3998,7 @@ Copyright © 2020-21
 	.web_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
 		padding-top: 70px;
 	}
+	
 }
 @media (max-width: 460px) {
 	.beauty_client_slider ol.carousel-indicators {
@@ -3963,6 +4012,25 @@ Copyright © 2020-21
 	}
 	.beauty_about_image_wrapper svg {
 		display: none;
+	}
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 #loginSurfaceDuo {
+        min-height: 80vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item #signInRes{
+		min-height: 120vh;
+	}
+	.signUpImage #mobileImage{
+		margin-bottom: 30vw;
+	}
+	#signUpImage img{
+		width: 100vw;
+        height: 50vw;
+		margin-top: -110vw;
+    }
+}
+@media (max-width: 420px){
+	.start_slider_wrapper .carousel-inner .carousel-item #loginRes .loginSurfaceDuo{
+		min-height: 70vh;
 	}
 }
 @media (max-width: 380px) {
@@ -4229,13 +4297,18 @@ Copyright © 2020-21
     .loginForm{
         margin-top: 10vw;
     }
+
 }
 /* Mobile for Sign-in & Sign-up*/
 
 @media (max-width: 1200px) {
-	.start_slider_main_img_wrapper img{
+	.start_slider_main_img_wrapper{
 		width: 100vw;
 		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > img{
+		width: 50%;
+		height: 100%;
 	}
 	/* Sign In */
 	.signUpForm{
