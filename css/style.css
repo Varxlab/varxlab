@@ -22248,6 +22248,11 @@ button:focus {
 	position: absolute;
 	right: -121px;
 }
+.signInBGI{
+	position: absolute;
+	right: -121px;
+	top: 250px;
+}
 
 .start_slider_wrapper .carousel-nevigation>.next:hover,
 .start_slider_wrapper .carousel-nevigation>.prev:hover {
@@ -25163,35 +25168,11 @@ button:focus {
 }
 
 /* Sign In */
-.signInForm{
+.signUpForm{
 	margin-bottom: 5vw;
 }
-
-/* Responsive Login & Register */
-
-@media screen and (max-width: 1200px) {
-	/* Sign In */
-	.signInForm{
-		width: 100%;
-		margin-bottom: 13vw;
-	}
-	.heading{
-		font-size: 6vw;
-	}
-	.formHeading{
-        font-size: 3vw;
-    }
-	.formHeading input{
-        padding: 1vw 3vw;
-    }
-	.formSubmit{
-        font-size: 4vw;
-		margin-top:3vw;
-    }
-
-	/* Login Form */
-	.loginForm{
-		margin-top: 15vw;
-		width: 100%;
-	}
+.start_slider_main_img_wrapper > img{
+	width: 80vw;
+	height: 40vw;
+    object-fit: cover;
 }

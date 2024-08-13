@@ -505,7 +505,7 @@ Copyright © 2020-21
 	.start_slider_main_img_wrapper {
 		top: 140px;
 	}
-	.start_slider_main_img_wrapper img {
+	.start_slider_main_img_wrapper > img {
 		width: 100%;
 	}
 	.start_top_righ_shape,
@@ -940,6 +940,9 @@ Copyright © 2020-21
 	.start_slider_main_img_wrapper {
 		top: 170px;
 	}
+	#signUpImage{
+		top: 350px;
+	}
 	.start_menu_wrapper ul > li {
 		margin-right: 13px;
 	}
@@ -1049,6 +1052,15 @@ Copyright © 2020-21
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	.start_top_righ_shape{
+		top: 500px;
+	}
+	.start_slider_wrapper .carousel-inner .carousel-item .signInRes{
+		min-height: 90vh;
+	}
+	.loginBGI{
+		display: none;
+	}
 	#section-quote .container-pe-quote .li-quote-1 {
 		left: 0;
 	}
@@ -1462,8 +1474,7 @@ Copyright © 2020-21
 	.soft_slider_main_img_wrapper {
 		margin-right: 0;
 	}
-	.soft-spinner-eff,
-	.start_top_righ_shape {
+	.soft-spinner-eff{
 		display: none;
 	}
 	/* Startup */
@@ -1537,6 +1548,15 @@ Copyright © 2020-21
 	.web_about_wrapper {
 		padding-top: 0;
 	}
+	.start_slider_main_img_wrapper{
+		width: 100vw;
+		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > #loginImage {
+        width: 50%;
+        height: 100%;
+		margin-top: -20vw;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.bussi_banner_left_img {
@@ -1548,6 +1568,9 @@ Copyright © 2020-21
 	#section-quote .container-quote .quote {
 		width: 100%;
 		padding: 0 100px;
+	}
+	.start_slider_wrapper .carousel-inner .carousel-item .signInRes{
+		min-height: 120vh;
 	}
 	#section-quote .container-pe-quote {
 		width: 100%;
@@ -2843,7 +2866,6 @@ Copyright © 2020-21
 		margin-bottom: 0px;
 	}
 	/* Startup */
-	.start_slider_main_img_wrapper,
 	.start_top_righ_shape {
 		display: none;
 	}
@@ -2877,7 +2899,10 @@ Copyright © 2020-21
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-1,
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-2,
 	.start_slider_wrapper .carousel-inner .carousel-item .caption-3 {
-		min-height: 390px;
+		min-height: 110vh;
+	}
+	.start_slider_wrapper .carousel-inner .carousel-item .loginRes{
+		min-height: 70vh;
 	}
 	.start_services_box h1 {
 		font-size: 18px;
@@ -3649,7 +3674,46 @@ Copyright © 2020-21
 	#web-return-to-top {
 		right: 30px;
 	}
+	/* .start_slider_wrapper .carousel-inner .carousel-item .signInRes{
+		min-height: 170vh;
+	} */
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 #loginSurfaceDuo{
+        min-height: 110vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 {
+        min-height: 110vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item .surfaceDuo{
+        min-height: 170vh;
+    }
+	.start_slider_main_img_wrapper {
+		width: 100vw;
+		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > #loginImage {
+        width: 100%;
+        height: 100%;
+        margin-top: -100vw;
+    }
+
+	.start_slider_wrapper .carousel-inner .carousel-item #loginRes{
+		min-height: 70vh;
+	}
+	#signUpImage img{
+        width: 100vw;
+        height: 50vw;
+        margin-top: -110vw;
+    }
+	#signUpImage .surfaceDuoImage{
+        width: 100vw;
+        height: 50vw;
+        margin-top: -70vw;
+    }
+	.signUpImage #mobileImage{
+		margin-top: -60vw;
+	}
 }
+
 @media (max-width: 480px) {
 	#section-quote .container-quote .quote p {
 		font-size: 20px;
@@ -3934,6 +3998,7 @@ Copyright © 2020-21
 	.web_slider_wrapper .carousel-inner .carousel-item .carousel-captions .content {
 		padding-top: 70px;
 	}
+	
 }
 @media (max-width: 460px) {
 	.beauty_client_slider ol.carousel-indicators {
@@ -3947,6 +4012,25 @@ Copyright © 2020-21
 	}
 	.beauty_about_image_wrapper svg {
 		display: none;
+	}
+	.start_slider_wrapper .carousel-inner .carousel-item .caption-1 #loginSurfaceDuo {
+        min-height: 80vh;
+    }
+	.start_slider_wrapper .carousel-inner .carousel-item #signInRes{
+		min-height: 120vh;
+	}
+	.signUpImage #mobileImage{
+		margin-bottom: 30vw;
+	}
+	#signUpImage img{
+		width: 100vw;
+        height: 50vw;
+		margin-top: -110vw;
+    }
+}
+@media (max-width: 420px){
+	.start_slider_wrapper .carousel-inner .carousel-item #loginRes .loginSurfaceDuo{
+		min-height: 70vh;
 	}
 }
 @media (max-width: 380px) {
@@ -4177,5 +4261,77 @@ Copyright © 2020-21
 	}
 	.pcfix_about_image_wrapper svg {
 		bottom: -130px;
+	}
+}
+
+/* Responsive Login & Register */
+
+@media(max-width: 992px) {
+	#signUpImage img{
+		width: 100vw;
+        height: 50vw;
+		margin-top: -110vw;
+	}
+	#loginImage{
+		margin-top: -30vw;
+	}
+    /* Sign In */
+    .signUpForm{
+        width: 100%;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .formHeading{
+        font-size: 14px;
+    }
+    .formHeading input{
+        padding: 10px 20px;
+    }
+    .formSubmit{
+        font-size: 18px;
+		padding: 1.5vw;
+    }
+
+    /* Login Form */
+    .loginForm{
+        margin-top: 10vw;
+    }
+
+}
+/* Mobile for Sign-in & Sign-up*/
+
+@media (max-width: 1200px) {
+	.start_slider_main_img_wrapper{
+		width: 100vw;
+		height: 50vw;
+	}
+	.start_slider_main_img_wrapper > img{
+		width: 50%;
+		height: 100%;
+	}
+	/* Sign In */
+	.signUpForm{
+		width: 100%;
+	}
+	.heading{
+		font-size: 6vw;
+	}
+	.formHeading{
+        font-size: 3vw;
+    }
+	.formHeading input{
+        padding: 1vw 3vw;
+    }
+	.formSubmit{
+        font-size: 4vw;
+		padding: 1.5vw;
+		margin-top:3vw;
+    }
+
+	/* Login Form */
+	.loginForm{
+		margin-top: 15vw;
+		width: 100%;
 	}
 }
