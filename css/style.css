@@ -22275,6 +22275,9 @@ button:focus {
 	padding: 100px 0;
 	padding-top: 50px;
 }
+.start_category_wrapper .container .row .services{
+	margin-bottom: 2.5vw;
+}
 
 .start_services_box {
 	text-align: center;
@@ -25175,4 +25178,32 @@ button:focus {
 	width: 80vw;
 	height: 40vw;
     object-fit: cover;
+}
+
+/* About Us */
+.aboutPage{
+	width: 100%;
+	padding: 0 4vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.aboutPage .heading{
+	font-size: 3.5vw;
+    text-align: center;
+    color: #7e50ff;
+    font: 800;
+	margin-bottom: 1vw;
+}
+.aboutPage .para{
+	font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+#aboutImage{
+	width: 80vw;
+	height: 40vw;
+	object-fit: cover;
+}
+.expertise{
+	padding: 2vw 4vw; 
 }

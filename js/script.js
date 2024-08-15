@@ -9,7 +9,14 @@ function readMore(){
         if (moreContent.length > 100) {
             let cutOffIndex = moreContent.lastIndexOf(' ', 100);
             let lessContent = moreContent.substring(0, cutOffIndex) + "...";
-            contentElement.innerText = lessContent;
+            if(lessContent.length > 100){
+                let cutOffIndex = moreContent.lastIndexOf(' ',90);
+                lessContent = moreContent.substring(0, cutOffIndex) + "...";
+                contentElement.innerText = lessContent;
+            }
+            else{
+                contentElement.innerText = lessContent;
+            }
         }
 
         btn.addEventListener("click", () => {
